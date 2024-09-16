@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="staticResume.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+  </head>
+  <body>
+    <div id="mainDiv">
+      <!--personal information-->
+      <section>
+        <div class="personal">
+          <div>
+          <h1><span id="name">Farah Almas</span></h1>
+          <h2><span id="jobTitle">Software Engineer</span></h2>
+        </div>
+        <img src="img-resume.webp" alt="photo">
+      </div>
+      <div class="contact-info">
+        <p class="para"><i class="fa-solid fa-phone"></i>Phone:<span id="phone">03212815495</span></p>
+        <p class="para"><i class="fa-solid fa-envelope"></i>Email:<span id="email">farahalmas080@gmail.com</span></p>
+        <p class="para"><i class="fa-brands fa-linkedin"></i>LinkeIn:<span id="linkedin">FarahAlmas</span></p>
+      </div>
+      </section>
+      <!--objective-->
+      <section id="objectiveSec">
+        <h2 class="heading">Objective:</h2>
+        <p class="contpara">Detail</p>
+      </section>
+      <!--Education-->
+      <section id="edusec">
+        <h2 class="heading">Education:</h2>
+        <p class="contpara"><span id="degree">Bachelor of Commerce</span></p>
+        <p class="contpara"><span id="university">Karachi University</span>,<span id="gradeyear">2014</span></p>
+      </section>
+      <!--skills-->
+      <section id="skillSec">
+        <h2 class="heading">Skills:</h2>
+        <ul>
+          <li><span id="skill1" class="contpara">HTML & CSS</span></li>
+          <li><span id="skill2" class="contpara">TYPESCRIPT</span></li>
+          <li><span id="skill3" class="contpara">JAVASCRIPT</span></li>
+        </ul>
+      </section> 
+      <!--work experience-->
+      <section id="workExpSec" class="work-experience">
+        <h2 class="heading">Work Experience:</h2>
+        <p class="contpara"><span id="jobTitleExp">Software Developer</span> at <span id="company">ABC company</span>,<span id="startYear">2022</span>-<span id="endYear">Present</span></p>
+      </section>
+    </div>
+    <div id="btnDiv">
+      <h3>Toggle Sections</h3>
+      <div class="sp">
+        <button id="ObjectiveBtn" class="btn" data-target="objective">Objective</button>
+        <button id="EducationBtn" class="btn" data-target="education">Education</button>
+        <button id="SkillsBtn" class="btn" data-target="skills">Skills</button>
+        <button id="WorkExpBtn" class="btn" data-target="workExperience">Work Experience</button>
+      </div>
+    </div>
+    <script src="staticResume.js"></script>
+  </body>
+  </html>
