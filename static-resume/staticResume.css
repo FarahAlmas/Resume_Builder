@@ -47,7 +47,7 @@ img{
   display:flex;
   justify-content: space-between;
   padding: 10px;
-  background-color:#e0f7fa;
+  background-color:#b5eaf1;
   border-radius: 5px;
   margin-top: 10px;
   overflow: hidden;
@@ -71,6 +71,20 @@ img{
 }
 #skillSec ul{
   margin-left: 25px;
+}
+.btn-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 20px;
+}
+#btnDiv{
+  width: 100%;
+  max-width: 800px;
+  padding: 10px;
+  text-align: center;
+  background-color:#b5eaf1;
+  border-radius: 10px;
 }
 .btn{
   font-size: 14px;
@@ -103,6 +117,10 @@ img{
   .contact-info{
     flex-direction: column;
   }
+  .btn{
+    width: 100%;
+    margin: 10px 0;
+  }
   #objectiveSec{
     display: block;
   }
@@ -115,4 +133,5 @@ img{
   #workExpSec{
     display: block;
   }
+
 }

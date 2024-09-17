@@ -40,7 +40,7 @@ window.addEventListener('load', () => {
     // Set the resume link in the DOM
     const resumeLink = document.getElementById('resumeLink');
     resumeLink.setAttribute('href', uniqueResumeUrl);
-    resumeLink.textContent = uniqueResumeUrl;
+    resumeLink.textContent = `URL_${username}`;
     // Copy link to clipboard functionality
     document.getElementById('copyLinkBtn').addEventListener('click', () => {
         navigator.clipboard.writeText(uniqueResumeUrl).then(() => {

@@ -46,7 +46,7 @@ window.addEventListener('load', () => {
   // Set the resume link in the DOM
   const resumeLink = document.getElementById('resumeLink') as HTMLAnchorElement;
   resumeLink.setAttribute('href', uniqueResumeUrl);
-  resumeLink.textContent = uniqueResumeUrl;
+  resumeLink.textContent = `URL_${username}`;
 
 
 
