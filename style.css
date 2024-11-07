@@ -5,7 +5,10 @@
   font-family: Tahoma, Geneva, Verdana, sans-serif;
 }
 body{
-  background: linear-gradient(rgb(12, 244, 228),rgba(180, 5, 207, 0.9),rgba(87, 10, 58, 0.9));
+  background: linear-gradient(rgba(32, 159, 228, 0.9),rgba(5, 233, 218, 0.927));
+  /* background-image: url(/static-resume/images.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat; */
   display: flex;
   justify-content: center;
   flex-direction: column;

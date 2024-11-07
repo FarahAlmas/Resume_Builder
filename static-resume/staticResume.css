@@ -103,9 +103,10 @@ img{
   background-color: #f0f0f0;
 }
 /* responsive design */
-@media(max-min:768px){
+ @media(max-width:768px){
   #mainDiv,#btnDiv{
     width: 100%;
+    
   }
   .personal{
     flex-direction: column;
